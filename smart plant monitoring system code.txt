@@ -1,0 +1,9 @@
+setChartLibrary('google-chart');
+
+setChartTitle('Light intensity monitor');
+
+setChartType('lineGraph');
+
+setAxisName('Time','Light');
+
+plotChart("time_stamp","ldr");
